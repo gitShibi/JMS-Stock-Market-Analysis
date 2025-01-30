@@ -1,1 +1,1 @@
-# JMS-Stock-Market-Analysis
+# JMS-Stock-Market-Analysis Project
