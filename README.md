@@ -56,7 +56,7 @@ The model was tested on unseen data (20% of the dataset). The performance was ev
 •	Root Mean Squared Error (RMSE): Measures absolute error in stock price predictions.
 •	Mean Absolute Error (MAE): Measures the average magnitude of prediction errors.
 •	Mean Absolute Percentage Error (MAPE): Indicates how much percentage error exists in predictions.
- 
+ ![Alt Text](images/your image)
                                                                      Figure 5 Actual vs Predicted price with LSTM
 Findings
 ✔ Predicted vs. Actual Prices: The LSTM model was able to follow the actual price trend with reasonable accuracy.
@@ -366,7 +366,7 @@ from pmdarima import auto_arima
 ### Acknowledgments & Contributions
 This project was developed as part of a stock market forecasting study. We would like to express our sincere gratitude to Dr. Menor Tekeba for his invaluable guidance and support throughout the project. We also extend our appreciation to OpenAI and Statsmodels Documentation for providing insights into ARIMA models, as well as TensorFlow and Keras Documentation for their comprehensive resources on LSTM model training. Additionally, we acknowledge the contributions of various financial data providers for supplying the stock market data that made this analysis possible.
 Contributors:
-•	[Jemila Muhdin, Melat Miheretab, Shibeshi Getachew] - Model development, data analysis, and report writing.
+•	[Jemila Muhidin, Melat Miheretab, Shibeshi Getachew] - Model development, data analysis, and report writing.
 
 
 
