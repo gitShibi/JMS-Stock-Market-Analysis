@@ -179,6 +179,80 @@ The Stock Forecasting Dashboard provides an interactive and insightful interface
 🚀 With its interactive components and predictive capabilities, the dashboard empowers users to make data-driven investment decisions efficiently. 
 
 ### Results and Discussion
+This section presents the results of the stock price forecasting models using ARIMA and LSTM across three time horizons: Short Range, Medium Range, and Long Range. The key evaluation metrics considered are Root Mean Square Error (RMSE), Mean Absolute Error (MAE), and Mean Absolute Percentage Error (MAPE). These metrics help assess the accuracy and reliability of each model.
+
+1. ## Short-Range Forecasting Performance
+Short-range forecasting evaluates the models' ability to predict stock prices in the near future. The results are as follows:
+Stock	Model	RMSE	MAE	MAPE (%)
+ABNB	LSTM	0.5448	0.3681	0.28%
+	ARIMA	0.5350	0.4729	0.36%
+BKNG	LSTM	16.6791	12.79	0.27%
+	ARIMA	15.1332	11.0473	0.23%
+EXPE	LSTM	0.7163	0.5486	0.32%
+	ARIMA	0.4933	0.3661	0.22%
+MAR	LSTM	0.0382	0.0259	3.16%
+	ARIMA	1.2291	1.1327	0.39%
+Short-Range Key Insights:
+•	Lower RMSE and MAPE values indicate better model performance.
+•	For ABNB, ARIMA performed slightly better in terms of RMSE (0.5350 vs. 0.5448) but had a higher MAE than LSTM.
+•	For BKNG and EXPE, ARIMA outperformed LSTM with significantly lower RMSE, MAE, and MAPE values.
+•	For MAR, LSTM showed better performance with the lowest RMSE (0.0382) and MAE (0.0259), although ARIMA had a lower MAPE (0.39% vs. 3.16%).
+🔹 Conclusion for Short Range:
+ARIMA generally provided better short-term predictions, particularly for BKNG and EXPE, where it significantly reduced the error compared to LSTM. However, LSTM performed slightly better for MAR, suggesting it may be more effective for certain stocks.
+
+2. ## Medium-Range Forecasting Performance
+Medium-range forecasting assesses the models' ability to predict stock prices over a slightly longer horizon.
+Stock	Model	RMSE	MAE	MAPE (%)
+ABNB	LSTM	3.4259	2.8584	2.13%
+	ARIMA	1.8117	1.3461	1.01%
+BKNG	LSTM	92.2659	75.3718	1.61%
+	ARIMA	77.5974	67.0683	1.42%
+EXPE	LSTM	7.3502	5.9608	8.09%
+	ARIMA	2.4233	1.8677	1.12%
+MAR	LSTM	4.4342	3.5057	1.28%
+	ARIMA	2.8700	2.2488	0.82%
+Medium-Range Key Insights:
+•	For all stocks, ARIMA outperformed LSTM with lower RMSE, MAE, and MAPE values.
+•	The largest improvement was for EXPE, where ARIMA reduced RMSE from 7.35 (LSTM) to 2.42, MAE from 5.96 to 1.86, and MAPE from 8.09% to 1.12%.
+•	Similar improvements were seen in ABNB, BKNG, and MAR, where ARIMA consistently had lower error rates.
+🔹 Conclusion for Medium Range:
+ARIMA was the superior model for all stocks in medium-range forecasting, showing better accuracy and lower prediction errors compared to LSTM.
+
+3. ## Long-Range Forecasting Performance
+Long-range forecasting evaluates the models' predictive power over extended periods.
+Stock	Model	RMSE	MAE	MAPE (%)
+ABNB	LSTM	7.0142	5.3393	4.11%
+	ARIMA	4.2303	3.1011	2.32%
+BKNG	LSTM	374.1403	216.5242	24.52%
+	ARIMA	261.7524	123.6059	16.14%
+EXPE	LSTM	10.9731	8.0868	6.27%
+	ARIMA	29.1734	24.1380	21.62%
+MAR	LSTM	23.1361	12.4462	11.06%
+	ARIMA	16.4630	6.2004	5.98%
+Long-Range Key Insights:
+•	ARIMA still performed better than LSTM for ABNB and BKNG, with lower RMSE, MAE, and MAPE values.
+•	However, for EXPE and MAR, LSTM showed better results in RMSE and MAE, while ARIMA had higher errors.
+•	The biggest gap was in BKNG, where ARIMA improved RMSE from 374.14 (LSTM) to 261.75 and reduced MAPE from 24.52% to 16.14%.
+•	Despite ARIMA's lower errors, both models struggled with long-term forecasts, with error rates increasing significantly over time.
+🔹 Conclusion for Long Range:
+For ABNB and BKNG, ARIMA was the better choice, while EXPE and MAR had better results with LSTM. However, long-range forecasting remains challenging for both models, with errors increasing significantly compared to short- and medium-range predictions.
+
+# Final Model Comparison and Business Insights
+Overall Best Model Per Time Horizon:
+•	Short Range → ARIMA (Best for BKNG & EXPE), LSTM (Best for MAR)
+•	Medium Range → ARIMA outperformed LSTM for all stocks
+•	Long Range → ARIMA was better for ABNB & BKNG, but LSTM worked better for EXPE & MAR
+Key Business Takeaways:
+•	ARIMA is the best choice for short- and medium-term predictions, offering higher accuracy and lower errors.
+•	LSTM struggles in short-range and medium-range forecasting but may perform better for some long-range stock predictions.
+•	Long-range forecasting remains unreliable with both models, indicating the need for alternative approaches, such as hybrid models (ARIMA + LSTM) or more advanced deep learning techniques.
+
+# Conclusion & Future Work
+•	The ARIMA model consistently outperformed LSTM in short- and medium-range predictions, making it a strong choice for stock traders focusing on short- to mid-term investments.
+•	Long-range forecasting remains challenging, suggesting that future work should explore hybrid models that combine ARIMA’s strengths in short-term forecasting with LSTM’s ability to capture complex patterns.
+•	Additional market indicators (e.g., macroeconomic trends, social sentiment analysis) could improve prediction accuracy.
+By leveraging the best model per time horizon, investors and traders can make more informed decisions when analyzing stock price movements. 
+
 
 
 
