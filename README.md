@@ -311,16 +311,16 @@ The project involves:
 Make sure you have Python 3.8+ installed. Clone or download the project repository.
 2. Install Required Dependencies
 Run the following command to install all necessary libraries:
-```!pip install yfinance
-```!pip install pmdarima
-``` !pip install prophet
-```!pip install fbprophet
+`!pip install yfinance
+ !pip install pmdarima
+ !pip install prophet
+ !pip install fbprophet
 
 3. Prepare the Dataset
 Ensure that the cleaned and preprocessed dataset is available in the /datasets/ folder in CSV format. If needed, rerun the preprocessing scripts.
 4. Train the Models
 Run the following script to train ARIMA and LSTM models:
- ``` Python train_models.py
+ ` Python train_models.py
 
 
 • The Trained models will be saved in the /models/ directory.
@@ -328,13 +328,13 @@ Run the following script to train ARIMA and LSTM models:
 • The LSTM model uses hyper parameter tuning for better optimization.
 5. Evaluate Model Performance
 To test model accuracy and generate key performance metrics, run:
-  ```Python evaluate_models.py
+  `Python evaluate_models.py
 
 • This Script will display RMSE, MAE, and MAPE for short, medium, and long-range forecasts.
 • a comparison table will be generated to identify the best-performing model.
 6. Run the Dashboard
 The dashboard can be launched using:
-     ```Streamlit run dashboard.py
+     `Streamlit run dashboard.py
 
 •	Features:
 o	Interactive stock price visualization (historical and predicted).
@@ -345,23 +345,23 @@ The project requires the following Python libraries:
 These are listed in requirements.txt, which allows easy installation.
 
 
- ```libraies imported
-```import yfinance as yf
-```import pandas as pd
-```import matplotlib.pyplot as plt
-```import seaborn as sns
-```import numpy as np
-```from plotly.subplots import make_subplots
-```import plotly.graph_objects as go
-```import plotly.express as px
-```from sklearn.preprocessing import MinMaxScaler
-```import torch
-```import torch.nn as nn
-```import torch.optim as optim
-```from torch.utils.data import DataLoader, TensorDataset
-```from statsmodels.tsa.stattools import adfuller
-```from statsmodels.tsa.statespace.sarimax import SARIMAX  from statsmodels.tsa.arima.model import ARIMA
-```from pmdarima import auto_arima
+`libraies imported
+import yfinance as yf
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+import plotly.express as px
+from sklearn.preprocessing import MinMaxScaler
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, TensorDataset
+from statsmodels.tsa.stattools import adfuller
+from statsmodels.tsa.statespace.sarimax import SARIMAX  from statsmodels.tsa.arima.model import ARIMA
+from pmdarima import auto_arima
 
 ### Acknowledgments & Contributions
 This project was developed as part of a stock market forecasting study. We would like to express our sincere gratitude to Dr. Menor Tekeba for his invaluable guidance and support throughout the project. We also extend our appreciation to OpenAI and Statsmodels Documentation for providing insights into ARIMA models, as well as TensorFlow and Keras Documentation for their comprehensive resources on LSTM model training. Additionally, we acknowledge the contributions of various financial data providers for supplying the stock market data that made this analysis possible.
