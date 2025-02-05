@@ -56,7 +56,7 @@ The model was tested on unseen data (20% of the dataset). The performance was ev
 •	Root Mean Squared Error (RMSE): Measures absolute error in stock price predictions.
 •	Mean Absolute Error (MAE): Measures the average magnitude of prediction errors.
 •	Mean Absolute Percentage Error (MAPE): Indicates how much percentage error exists in predictions.
- ![Alt Text](images/your image)
+ ![Alt Text](images/[your image](https://github.com/gitShibi/JMS-Stock-Market-Analysis/blob/main/images/abnb%20med.PNG?raw=true))
                                                                      Figure 5 Actual vs Predicted price with LSTM
 Findings
 ✔ Predicted vs. Actual Prices: The LSTM model was able to follow the actual price trend with reasonable accuracy.
