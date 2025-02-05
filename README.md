@@ -295,6 +295,82 @@ o	Deploying the model in a real-time setting with live stock market data feeds c
 This study demonstrated that ARIMA is a robust choice for short-to-medium-term forecasting, while LSTM has potential for long-term trends but requires further fine-tuning. Future research should focus on hybrid models, feature expansion, and real-time applications to enhance stock market prediction accuracy.
 By leveraging these insights, investors and financial analysts can make more informed trading decisions and improve risk management strategies in the dynamic stock market environment.
 
+### Project Title and Description.
+Project Title: JMS-Stock-Market-Analysis Project
+Project Description
+This project focuses on predicting stock prices using ARIMA (Autoregressive Integrated Moving Average) and LSTM (Long Short-Term Memory) models. The analysis covers short, medium, and long-range forecasting, comparing the accuracy and performance of both models across different stock symbols (ABNB, BKNG, EXPE, MAR).
+The project involves:
+•	Data Preprocessing & Feature Engineering: Using moving averages, RSI, and volume as key features.
+•	Time Series Forecasting: Implementing ARIMA for linear trend modeling and LSTM for deep learning-based sequence prediction.
+•	Model Performance Evaluation: Comparing RMSE, MAE, and MAPE to assess forecasting accuracy.
+•	Dashboard Development: (Future scope) A user-friendly interface to visualize predictions and key metrics.
+
+
+### Instructions on how to run the code and use the dashboard.
+1. Set Up the Environment
+Make sure you have Python 3.8+ installed. Clone or download the project repository.
+2. Install Required Dependencies
+Run the following command to install all necessary libraries:
+```!pip install yfinance
+```!pip install pmdarima
+``` !pip install prophet
+```!pip install fbprophet
+
+3. Prepare the Dataset
+Ensure that the cleaned and preprocessed dataset is available in the /datasets/ folder in CSV format. If needed, rerun the preprocessing scripts.
+4. Train the Models
+Run the following script to train ARIMA and LSTM models:
+ ``` Python train_models.py
+
+
+• The Trained models will be saved in the /models/ directory.
+• The Best ARIMA model parameters are automatically selected using Auto-ARIMA.
+• The LSTM model uses hyper parameter tuning for better optimization.
+5. Evaluate Model Performance
+To test model accuracy and generate key performance metrics, run:
+  ```Python evaluate_models.py
+
+• This Script will display RMSE, MAE, and MAPE for short, medium, and long-range forecasts.
+• a comparison table will be generated to identify the best-performing model.
+6. Run the Dashboard
+The dashboard can be launched using:
+     ```Streamlit run dashboard.py
+
+•	Features:
+o	Interactive stock price visualization (historical and predicted).
+o	Model performance comparison.
+o	Adjustable forecasting horizons.
+### Dependencies (Libraries Used)
+The project requires the following Python libraries:
+These are listed in requirements.txt, which allows easy installation.
+
+
+ ```libraies imported
+```import yfinance as yf
+```import pandas as pd
+```import matplotlib.pyplot as plt
+```import seaborn as sns
+```import numpy as np
+```from plotly.subplots import make_subplots
+```import plotly.graph_objects as go
+```import plotly.express as px
+```from sklearn.preprocessing import MinMaxScaler
+```import torch
+```import torch.nn as nn
+```import torch.optim as optim
+```from torch.utils.data import DataLoader, TensorDataset
+```from statsmodels.tsa.stattools import adfuller
+```from statsmodels.tsa.statespace.sarimax import SARIMAX  from statsmodels.tsa.arima.model import ARIMA
+```from pmdarima import auto_arima
+
+### Acknowledgments & Contributions
+This project was developed as part of a stock market forecasting study. We would like to express our sincere gratitude to Dr. Menor Tekeba for his invaluable guidance and support throughout the project. We also extend our appreciation to OpenAI and Statsmodels Documentation for providing insights into ARIMA models, as well as TensorFlow and Keras Documentation for their comprehensive resources on LSTM model training. Additionally, we acknowledge the contributions of various financial data providers for supplying the stock market data that made this analysis possible.
+Contributors:
+•	[Jemila Muhdin, Melat Miheretab, Shibeshi Getachew] - Model development, data analysis, and report writing.
+
+
+
+
 
 
 
