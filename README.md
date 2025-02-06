@@ -57,7 +57,54 @@ The model was tested on unseen data (20% of the dataset). The performance was ev
 •	Mean Absolute Error (MAE): Measures the average magnitude of prediction errors.
 •	Mean Absolute Percentage Error (MAPE): Indicates how much percentage error exists in predictions.
  
-![Actual vs predicted](https://github.com/gitShibi/JMS-Stock-Market-Analysis/blob/a75b467dbf6934689334ad6ec9200c923140b50f/images/abnb%20med.PNG)
+                                                          Figure  Actual vs Predicted price with LSTM
+<table>
+  <tr>
+    <th>Short Range</th>
+    <th>Medium Range</th>
+    <th>Long Range</th>
+  </tr>
+  <tr>
+    <td><img src="images/abnb_sho.PNG" width="300"></td>
+    <td><img src="images/abnb_med.PNG" width="300"></td>
+    <td><img src="images/abnb_lon.PNG" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Airbnb</td>
+    <td align="center">Airbnb</td>
+    <td align="center">Airbnb</td>
+  </tr>
+  <tr>
+    <td><img src="images/bkng_ar_sho.PNG" width="300"></td>
+    <td><img src="images/bkng_med.PNG" width="300"></td>
+    <td><img src="images/bkng_lon.PNG" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Booking Holdings</td>
+    <td align="center">Booking Holdings</td>
+    <td align="center">Booking Holdings</td>
+  </tr>
+  <tr>
+    <td><img src="images/expe_sho.PNG" width="300"></td>
+    <td><img src="images/expe_med.PNG" width="300"></td>
+    <td><img src="images/expe_lon.PNG" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Expedia Group</td>
+    <td align="center">Expedia Group</td>
+    <td align="center">Expedia Group</td>
+  </tr>
+  <tr>
+    <td><img src="images/mar_sho.PNG" width="300"></td>
+    <td><img src="images/mar_med.PNG" width="300"></td>
+    <td><img src="images/mar_lon.PNG" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Marriott International</td>
+    <td align="center">Marriott International</td>
+    <td align="center">Marriott International</td>
+  </tr>
+</table>
 Findings
 ✔ Predicted vs. Actual Prices: The LSTM model was able to follow the actual price trend with reasonable accuracy.
 ✔ RMSE, MAE, and MAPE Results: Provided insight into prediction errors, highlighting areas for improvement.
@@ -121,7 +168,7 @@ A comparison plot of actual vs. predicted stock prices was created:
 🔹 Blue Line: Actual prices
 🔹 Red Line: Predicted prices
  
-                                                             Figure 6 Actual vs Predicted price with ARIMAX
+                                                             Figure  Actual vs Predicted price with ARIMAX
 <table>
   <tr>
     <th>Short Range</th>
