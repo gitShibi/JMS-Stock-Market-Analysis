@@ -129,9 +129,9 @@ A comparison plot of actual vs. predicted stock prices was created:
     <th>Long Range</th>
   </tr>
   <tr>
-    <td><img src="images/abnb_ar_sho.png" width="200"></td>
-    <td><img src="images/abnb_ar_med.png" width="200"></td>
-    <td><img src="images/abnb_ar_lon.png" width="200"></td>
+    <td><img src="images/abnb_ar_sho.PNG" width="300"></td>
+    <td><img src="images/abnb_ar_med.PNG" width="300"></td>
+    <td><img src="images/abnb_ar_lon.PNG" width="300"></td>
   </tr>
   <tr>
     <td align="center">Airbnb</td>
@@ -139,9 +139,9 @@ A comparison plot of actual vs. predicted stock prices was created:
     <td align="center">Airbnb</td>
   </tr>
   <tr>
-    <td><img src="images/bkng_ar_sho.png" width="200"></td>
-    <td><img src="images/bkng_ar_med.png" width="200"></td>
-    <td><img src="images/bkng_ar_lon.png" width="200"></td>
+    <td><img src="images/bkng_ar_sho.PNG" width="300"></td>
+    <td><img src="images/bkng_ar_med.PNG" width="300"></td>
+    <td><img src="images/bkng_ar_lon.PNG" width="300"></td>
   </tr>
   <tr>
     <td align="center">Booking Holdings</td>
@@ -149,9 +149,9 @@ A comparison plot of actual vs. predicted stock prices was created:
     <td align="center">Booking Holdings</td>
   </tr>
   <tr>
-    <td><img src="images/expe_ar_sho.png" width="200"></td>
-    <td><img src="images/expe_ar_med.png" width="200"></td>
-    <td><img src="images/expe_ar_lon.png" width="200"></td>
+    <td><img src="images/expe_ar_sho.PNG" width="300"></td>
+    <td><img src="images/expe_ar_med.PNG" width="300"></td>
+    <td><img src="images/expe_ar_lon.PNG" width="300"></td>
   </tr>
   <tr>
     <td align="center">Expedia Group</td>
@@ -159,9 +159,9 @@ A comparison plot of actual vs. predicted stock prices was created:
     <td align="center">Expedia Group</td>
   </tr>
   <tr>
-    <td><img src="images/mar_ar_sho.png" width="200"></td>
-    <td><img src="images/mar_ar_med.png" width="200"></td>
-    <td><img src="images/mar_ar_lon.png" width="200"></td>
+    <td><img src="images/mar_ar_sho.PNG" width="300"></td>
+    <td><img src="images/mar_ar_med.PNG" width="300"></td>
+    <td><img src="images/mar_ar_lon.PNG" width="300"></td>
   </tr>
   <tr>
     <td align="center">Marriott International</td>
