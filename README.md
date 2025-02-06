@@ -57,7 +57,7 @@ The model was tested on unseen data (20% of the dataset). The performance was ev
 •	Mean Absolute Error (MAE): Measures the average magnitude of prediction errors.
 •	Mean Absolute Percentage Error (MAPE): Indicates how much percentage error exists in predictions.
  
-![](images/abnb_med.png)
+![](images/[abnb_med.png](https://github.com/gitShibi/JMS-Stock-Market-Analysis/blob/5c09e9697300de3da3c61d70a9dcc57ba6c60707/images/abnb%20med.PNG))
 Findings
 ✔ Predicted vs. Actual Prices: The LSTM model was able to follow the actual price trend with reasonable accuracy.
 ✔ RMSE, MAE, and MAPE Results: Provided insight into prediction errors, highlighting areas for improvement.
