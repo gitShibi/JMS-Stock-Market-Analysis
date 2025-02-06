@@ -122,16 +122,51 @@ A comparison plot of actual vs. predicted stock prices was created:
 🔹 Red Line: Predicted prices
  
                                                              Figure 6 Actual vs Predicted price with ARIMAX
-   <table>
+<table>
   <tr>
-    <td><img src="images/abnb ar sho.png" width="200"></td>
-    <td><img src="images/bkng ar sho.jpg" width="200"></td>
-    <td><img src="images/expe ar sho.png" width="200"></td>
+    <th>Short Range</th>
+    <th>Medium Range</th>
+    <th>Long Range</th>
   </tr>
   <tr>
-    <td align="center">abnb ar sho</td>
-    <td align="center">bkng ar sho</td>
-    <td align="center">expe ar sho</td>
+    <td><img src="images/abnb ar sho.png" width="200"></td>
+    <td><img src="images/abnb ar med.png" width="200"></td>
+    <td><img src="images/abnb ar lon.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">Airbnb</td>
+    <td align="center">Airbnb</td>
+    <td align="center">Airbnb</td>
+  </tr>
+  <tr>
+    <td><img src="images/bkng ar sho.png" width="200"></td>
+    <td><img src="images/bkng ar med.png" width="200"></td>
+    <td><img src="images/bkng ar lon.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">Booking Holdings</td>
+    <td align="center">Booking Holdings</td>
+    <td align="center">Booking Holdings</td>
+  </tr>
+  <tr>
+    <td><img src="images/expe ar sho.png" width="200"></td>
+    <td><img src="images/expe ar med.png" width="200"></td>
+    <td><img src="images/expe ar lon.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">Expedia Group</td>
+    <td align="center">Expedia Group</td>
+    <td align="center">Expedia Group</td>
+  </tr>
+  <tr>
+    <td><img src="images/mar ar sho.png" width="200"></td>
+    <td><img src="images/mar ar med.png" width="200"></td>
+    <td><img src="images/mar ar lon.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">Marriott International</td>
+    <td align="center">Marriott International</td>
+    <td align="center">Marriott International</td>
   </tr>
 </table>
 The final model captured stock price trends more accurately than the initial model, but some deviations remained.
