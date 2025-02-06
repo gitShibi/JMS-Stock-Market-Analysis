@@ -122,6 +122,18 @@ A comparison plot of actual vs. predicted stock prices was created:
 🔹 Red Line: Predicted prices
  
                                                              Figure 6 Actual vs Predicted price with ARIMAX
+   <table>
+  <tr>
+    <td><img src="images/abnb ar sho.png" width="200"></td>
+    <td><img src="images/bkng ar sho.jpg" width="200"></td>
+    <td><img src="images/expe ar sho.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">abnb ar sho</td>
+    <td align="center">bkng ar sho</td>
+    <td align="center">expe ar sho</td>
+  </tr>
+</table>
 The final model captured stock price trends more accurately than the initial model, but some deviations remained.
 Conclusion & Future Improvements
 The ARIMAX model effectively leveraged exogenous variables to enhance stock price predictions. However, further refinements can be made:
